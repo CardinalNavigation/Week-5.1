@@ -8,7 +8,8 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
-//Addi g
+//Adding properties to my object below, very similiar to adding variables, the syntax is different though
+
 const me = {
   // TODO - add properties here
   firstName: "Matthew",
@@ -48,6 +49,10 @@ console.log(me.favThreeFoods[2]);
   - Console.log your updated shoe count. 
 */
 
+console.log(me.shoeCount);
+me.shoeCount += 1;
+console.log(me.shoeCount);
+
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -55,3 +60,6 @@ console.log(me.favThreeFoods[2]);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = "Forest Green"
+console.log(me.favoriteColor);
